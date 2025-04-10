@@ -23,13 +23,13 @@ A simple BitTorrent-style peer-to-peer (P2P) file sharing system built using Pyt
 
 ## 🗂️ Folder Structure
 
-p2pFileSharing/
-├── tracker_server.py    # Central tracker server
-├── peer.py              # Peer logic (seed / download)
-├── filesA/             # Peer A's folder (contains the original shared files)
-│   └── cat.jpg          # Example file to share
-├── filesB/             # Peer B's folder (receives the downloaded files)
-└── README.md           # This documentation
+p2pFileSharing/  
+├── tracker_server.py    # Central tracker server  
+├── peer.py              # Peer logic (seed / download)  
+├── filesA/             # Peer A's folder (contains the original shared files)  
+│   └── cat.jpg          # Example file to share  
+├── filesB/             # Peer B's folder (receives the downloaded files)  
+└── README.md           # This documentation  
 
 
 ---
